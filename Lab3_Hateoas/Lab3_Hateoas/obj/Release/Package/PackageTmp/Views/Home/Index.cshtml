@@ -1,0 +1,92 @@
+﻿@model IEnumerable<Lab3_Hateoas.Models.Student>
+
+<div>
+    <div style="float: left; margin-top:10px; font-size:20px;">
+        @using (Html.BeginForm("GetStudent", "Home", FormMethod.Post))
+        {
+
+            <label class="control-label">Limit:</label>
+            <input class="form-control" type="number" name="limit" />
+            <label class="control-label">Sort:</label>
+            <input class="form-control" type="radio" name="sort" />
+            <label class="control-label">Offset:</label>
+            <input class="form-control" type="number" name="offset" />
+            <label class="control-label">MinId:</label>
+            <input class="form-control" type="number" name="minid" />
+            <label class="control-label">MaxId:</label>
+            <input class="form-control" type="number" name="maxid" />
+            <label class="control-label">Like:</label>
+            <input class="form-control" type="text" name="like" />
+            <label class="control-label">Columns:</label>
+            <input class="form-control" type="text" name="columns" />
+            <label class="control-label">Globalike:</label>
+            <input class="form-control" type="text" name="globalike" />
+            <label class="control-label">Xml:</label>
+            <input class="form-control" type="radio" name="xml" />
+            <br />
+            <input type="submit" class="btn btn-success" value="Get student" />
+        }
+    </div>
+    <div style="float: left; margin: 50px;">
+        <label class="control-label">Result:</label>
+        <textarea id="textArea" style="float: right;">@TempData["res"]</textarea>
+    </div>
+</div>
+
+<div>
+    @using (Html.BeginForm("AddStudent", "Home", FormMethod.Post))
+    {
+        <label class="control-label" style="font-size:20px;">Add Student:</label>
+        <br />
+        <label class="control-label">Name:</label>
+        <input class="form-control" type="text" name="name" />
+        <label class="control-label">Phone:</label>
+        <input class="form-control" type="text" name="phone" />
+        <br />
+        <input style="margin-left:300px;" type="submit" class="btn btn-success col-lg-10" value="Add student" />
+    }
+</div>
+
+<table class="table table-striped" style="font-size: 20px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+    <thead>
+        <tr>
+            <th scope="col">
+                Id
+            </th>
+            <th scope="col">
+                Name
+            </th>
+            <th scope="col">
+                Phone
+            </th>
+            <th scope="col">
+                Action
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <input type="button" class="btn btn-danger" value="Get" 
+                           onclick="location.href='@Url.Action("GetStudent", "Home", new {id = item.Id})'"/>
+                </td>
+                <td>
+                    @item.Id
+                </td>
+                <td>
+                    @item.Name 
+                </td>
+                <td >
+                    @item.Phone
+                </td>
+                <td>
+                    <a href='@Url.Action("EditStudent", "Home", new{id = item.Id})'>Edit</a> |
+                    <a href='@Url.Action("DeleteStudent", "Home", new{id = item.Id})'>Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

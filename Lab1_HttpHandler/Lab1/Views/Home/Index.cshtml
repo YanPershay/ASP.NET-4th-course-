@@ -1,0 +1,23 @@
+﻿@using System.Net.Http
+@model Lab1.Models.ServiceValues
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<br/>
+<label style="font-size: 20px">@ViewData["result"]</label><br/>
+
+@using (Html.BeginForm("AddResult", "Home", FormMethod.Post))
+{
+    @Html.TextBoxFor(model => model.Result, new { @type = "number", @class = "form-control" })
+    <br/>
+    <button type="submit" class="btn btn-warning">Add result</button>
+}
+<br/>
+@using (Html.BeginForm("PutResult", "Home"))
+{
+    @Html.TextBoxFor(model => model.Add, new { @type = "number", @class = "form-control" })
+    <br/>
+    <button type="submit" class="btn btn-primary">Add to stack</button>
+}

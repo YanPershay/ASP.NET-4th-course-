@@ -1,0 +1,10 @@
+E:\!ASP.NET\Labs\Lab4_Asmx\Asmx\bin\Debug\Asmx.exe.config
+E:\!ASP.NET\Labs\Lab4_Asmx\Asmx\bin\Debug\Asmx.exe
+E:\!ASP.NET\Labs\Lab4_Asmx\Asmx\bin\Debug\Asmx.pdb
+E:\!ASP.NET\Labs\Lab4_Asmx\Asmx\obj\Debug\Asmx.Form1.resources
+E:\!ASP.NET\Labs\Lab4_Asmx\Asmx\obj\Debug\Asmx.Properties.Resources.resources
+E:\!ASP.NET\Labs\Lab4_Asmx\Asmx\obj\Debug\Asmx.csproj.GenerateResource.cache
+E:\!ASP.NET\Labs\Lab4_Asmx\Asmx\obj\Debug\Asmx.csproj.CoreCompileInputs.cache
+E:\!ASP.NET\Labs\Lab4_Asmx\Asmx\obj\Debug\Asmx.exe
+E:\!ASP.NET\Labs\Lab4_Asmx\Asmx\obj\Debug\Asmx.pdb
+E:\!ASP.NET\Labs\Lab4_Asmx\Asmx\obj\Debug\Asmx.csprojAssemblyReference.cache
