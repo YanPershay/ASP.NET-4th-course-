@@ -1,0 +1,11 @@
+D:\!ASP.NET\Labs\WcfSiplex\HttpClient\bin\Debug\HttpClient.exe.config
+D:\!ASP.NET\Labs\WcfSiplex\HttpClient\bin\Debug\HttpClient.exe
+D:\!ASP.NET\Labs\WcfSiplex\HttpClient\bin\Debug\HttpClient.pdb
+D:\!ASP.NET\Labs\WcfSiplex\HttpClient\bin\Debug\WcfSiplex.dll
+D:\!ASP.NET\Labs\WcfSiplex\HttpClient\bin\Debug\WcfSiplex.pdb
+D:\!ASP.NET\Labs\WcfSiplex\HttpClient\bin\Debug\WcfSiplex.dll.config
+D:\!ASP.NET\Labs\WcfSiplex\HttpClient\obj\Debug\HttpClient.csprojAssemblyReference.cache
+D:\!ASP.NET\Labs\WcfSiplex\HttpClient\obj\Debug\HttpClient.csproj.CoreCompileInputs.cache
+D:\!ASP.NET\Labs\WcfSiplex\HttpClient\obj\Debug\HttpClient.csproj.CopyComplete
+D:\!ASP.NET\Labs\WcfSiplex\HttpClient\obj\Debug\HttpClient.exe
+D:\!ASP.NET\Labs\WcfSiplex\HttpClient\obj\Debug\HttpClient.pdb

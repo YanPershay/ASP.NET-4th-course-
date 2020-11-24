@@ -1,0 +1,14 @@
+E:\!ASP.NET\Labs\WcfSiplex\WcfSiplex\bin\Debug\WcfSiplex.dll.config
+E:\!ASP.NET\Labs\WcfSiplex\WcfSiplex\bin\Debug\WcfSiplex.dll
+E:\!ASP.NET\Labs\WcfSiplex\WcfSiplex\bin\Debug\WcfSiplex.pdb
+E:\!ASP.NET\Labs\WcfSiplex\WcfSiplex\obj\Debug\WcfSiplex.csprojAssemblyReference.cache
+E:\!ASP.NET\Labs\WcfSiplex\WcfSiplex\obj\Debug\WcfSiplex.csproj.CoreCompileInputs.cache
+E:\!ASP.NET\Labs\WcfSiplex\WcfSiplex\obj\Debug\WcfSiplex.dll
+E:\!ASP.NET\Labs\WcfSiplex\WcfSiplex\obj\Debug\WcfSiplex.pdb
+D:\!ASP.NET\Labs\WcfSiplex\WcfSiplex\bin\Debug\WcfSiplex.dll.config
+D:\!ASP.NET\Labs\WcfSiplex\WcfSiplex\bin\Debug\WcfSiplex.dll
+D:\!ASP.NET\Labs\WcfSiplex\WcfSiplex\bin\Debug\WcfSiplex.pdb
+D:\!ASP.NET\Labs\WcfSiplex\WcfSiplex\obj\Debug\WcfSiplex.csprojAssemblyReference.cache
+D:\!ASP.NET\Labs\WcfSiplex\WcfSiplex\obj\Debug\WcfSiplex.csproj.CoreCompileInputs.cache
+D:\!ASP.NET\Labs\WcfSiplex\WcfSiplex\obj\Debug\WcfSiplex.dll
+D:\!ASP.NET\Labs\WcfSiplex\WcfSiplex\obj\Debug\WcfSiplex.pdb

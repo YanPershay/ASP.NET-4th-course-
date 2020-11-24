@@ -1,0 +1,7 @@
+D:\!ASP.NET\Labs\WcfSiplex\TcpClient\obj\Debug\TcpClient.csprojAssemblyReference.cache
+D:\!ASP.NET\Labs\WcfSiplex\TcpClient\obj\Debug\TcpClient.csproj.CoreCompileInputs.cache
+D:\!ASP.NET\Labs\WcfSiplex\TcpClient\bin\Debug\TcpClient.exe.config
+D:\!ASP.NET\Labs\WcfSiplex\TcpClient\bin\Debug\TcpClient.exe
+D:\!ASP.NET\Labs\WcfSiplex\TcpClient\bin\Debug\TcpClient.pdb
+D:\!ASP.NET\Labs\WcfSiplex\TcpClient\obj\Debug\TcpClient.exe
+D:\!ASP.NET\Labs\WcfSiplex\TcpClient\obj\Debug\TcpClient.pdb
