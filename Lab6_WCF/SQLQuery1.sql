@@ -1,0 +1,17 @@
+--create table Student(
+--id int identity(1,1) primary key,
+--name nvarchar(40)
+--);
+--
+--create table Note(
+--id int identity(1,1) primary key,
+--subject nvarchar(40),
+--note int,
+--studentId int foreign key references Student(id)
+--);
+--
+--insert into Student values ('Yan'), ('Vitaly'), ('Nikola')
+--
+--insert into Note values ('PMMP', 9, 1), ('ASP.NET', 9, 1), ('Business', 9, 2), ('Swift', 9, 3)
+
+--select s.id, s.name, n.subject, n.note from Student s join Note n on s.id = n.studentId
